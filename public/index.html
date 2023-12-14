@@ -6,15 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Upload</title>
     <script src="./script.js"></script>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-    <h2>Image Upload</h2>
-    <form id="uploadForm" enctype="multipart/form-data">
-        <input type="file" name="image" accept="image/*" required>
-        <button type="button" onclick="uploadImage()">Upload</button>
-    </form>
-    <div id="result"></div>
+    <div class="card">
+        <h1>Image Upload</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" name="image" accept="image/*" required>
+            <button type="button" onclick="uploadImage()">Upload</button>
+        </form>
+        <div id="result">
+            <p>File size:</p>
+        </div>
+    </div>
+</body>
+</div>
 </body>
 
 </html>
